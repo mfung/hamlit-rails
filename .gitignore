@@ -7,3 +7,7 @@
 /pkg/
 /spec/reports/
 /tmp/
+*.gem
+*.lock
+gemfiles/*.lock
+/vendor/bundle

@@ -1,4 +1,7 @@
-# Hamlit-rails
+Hamlit-rails
+============
+
+[![Build Status](https://travis-ci.org/mfung/hamlit-rails.svg)](https://travis-ci.org/mfung/hamlit-rails)
 
 Provides hamlit generators for Rails 4. It also enables hamlit as the templating
 engine.
@@ -36,8 +39,6 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
-
-## Contributing
 
 ## Acknowledgement
 This code is heavily influenced by [haml-rails](https://github.com/indirect/haml-rails).
