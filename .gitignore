@@ -11,3 +11,4 @@
 *.lock
 gemfiles/*.lock
 /vendor/bundle
+.DS_Store
