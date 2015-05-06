@@ -1,6 +1,6 @@
 # Hamlit-rails
 
-Provides haml generators for Rails 4. It also enables haml as the templating
+Provides hamlit generators for Rails 4. It also enables hamlit as the templating
 engine.
 
 ## Installation
@@ -42,5 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Acknowledgement
 This code is heavily influenced by [haml-rails](https://github.com/indirect/haml-rails).
 And is written because of an issue created in that repo.
+
+## License
 
 MIT license
