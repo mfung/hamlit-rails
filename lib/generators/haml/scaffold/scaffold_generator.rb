@@ -1,6 +1,6 @@
 require 'rails/generators/erb/scaffold/scaffold_generator'
 
-module Hamlit
+module Haml
   module Generators
     class ScaffoldGenerator < Erb::Generators::ScaffoldGenerator
       source_root File.expand_path("../templates", __FILE__)
@@ -21,7 +21,7 @@ module Hamlit
         end
       end
 
-    protected
+      protected
 
       def available_views
         %w(index edit show new)

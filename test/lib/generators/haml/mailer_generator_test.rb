@@ -1,6 +1,6 @@
 require 'minitest_helper'
 
-class Hamlit::Generators::MailerGeneratorTest < Rails::Generators::TestCase
+class Haml::Generators::MailerGeneratorTest < Rails::Generators::TestCase
   destination File.join(Rails.root)
   tests Rails::Generators::MailerGenerator
 

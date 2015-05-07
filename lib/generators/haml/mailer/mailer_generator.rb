@@ -1,6 +1,6 @@
 require 'generators/haml/controller/controller_generator'
 
-module Hamlit
+module Haml
   module Generators
     class MailerGenerator < ControllerGenerator
       source_root File.expand_path("../templates", __FILE__)
@@ -30,7 +30,8 @@ module Hamlit
         end
       end
 
-    protected
+      protected
+
       def format
         :text
       end

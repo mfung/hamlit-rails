@@ -1,6 +1,6 @@
 require 'minitest_helper'
 
-class Hamlit::Generators::ScaffoldGeneratorTest < Rails::Generators::TestCase
+class Haml::Generators::ScaffoldGeneratorTest < Rails::Generators::TestCase
   destination Rails.root
   tests Rails::Generators::ScaffoldGenerator
 
