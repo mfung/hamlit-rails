@@ -1,6 +1,8 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'hamlit-rails'
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
 
+require 'hamlit-rails'
 require 'minitest/autorun'
 require 'rails/all'
 require 'rails/generators'

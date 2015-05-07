@@ -1,7 +1,7 @@
 Hamlit-rails
 ============
 
-[![Build Status](https://travis-ci.org/mfung/hamlit-rails.svg)](https://travis-ci.org/mfung/hamlit-rails) [![Gem Version](https://badge.fury.io/rb/hamlit-rails.svg)](http://badge.fury.io/rb/hamlit-rails)
+[![Build Status](https://travis-ci.org/mfung/hamlit-rails.svg)](https://travis-ci.org/mfung/hamlit-rails) [![Gem Version](https://badge.fury.io/rb/hamlit-rails.svg)](http://badge.fury.io/rb/hamlit-rails) [![Code Climate](https://codeclimate.com/github/mfung/hamlit-rails/badges/gpa.svg)](https://codeclimate.com/github/mfung/hamlit-rails) [![Test Coverage](https://codeclimate.com/github/mfung/hamlit-rails/badges/coverage.svg)](https://codeclimate.com/github/mfung/hamlit-rails/coverage)
 
 Provides hamlit generators for Rails 4. It also enables hamlit as the templating
 engine.
