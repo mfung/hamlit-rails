@@ -76,7 +76,7 @@ require_generators generator_list
 
 # Remove tmp directory when test suite is completed
 
-if Minitest.responds_to? :after_run
+if Minitest.respond_to? :after_run
   Minitest.after_run do
     tmp_dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'tmp'))
     FileUtils.rm_r(tmp_dir)
