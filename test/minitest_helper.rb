@@ -82,11 +82,7 @@ def delete_tmp_directory
 end
 
 if Minitest.respond_to? :after_run
-  Minitest.after_run do
-    delete_tmp_directory
-  end
+  Minitest.after_run { delete_tmp_directory }
 else
-  MiniTest::Unit.after_tests do
-    delete_tmp_directory
-  end
+  MiniTest::Unit.after_tests { delete_tmp_directory }
 end
