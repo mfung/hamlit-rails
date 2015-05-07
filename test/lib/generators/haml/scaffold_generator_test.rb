@@ -1,12 +1,13 @@
 require 'minitest_helper'
 
 class Hamlit::Generators::ScaffoldGeneratorTest < Rails::Generators::TestCase
-  destination File.join(Rails.root)
+  destination Rails.root
   tests Rails::Generators::ScaffoldGenerator
-  arguments %w(product_line title:string price:integer)
 
   setup :prepare_destination
   setup :copy_routes
+
+  arguments %w(product_line title:string price:integer)
 
   test "should invoke template engine" do
     run_generator

@@ -45,8 +45,8 @@ end
 
 def generator_list
   {
-    :rails        => ['scaffold'],
-    :haml         => ['scaffold']
+    :rails        => ['scaffold', 'controller', 'mailer'],
+    :haml         => ['scaffold', 'controller', 'mailer']
   }
 end
 
