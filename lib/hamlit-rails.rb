@@ -48,6 +48,10 @@ module Haml
           end
         end
       end
+
+      rake_tasks do
+        load 'hamlit-rails/erb2haml.rake'
+      end
     end
   end
 end
