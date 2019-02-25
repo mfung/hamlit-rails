@@ -17,7 +17,4 @@ matrix:
       gemfile: gemfiles/rails_5_2.gemfile
     - rvm: 2.6.1
       gemfile: gemfiles/rails_latest.gemfile
-addons:
-  code_climate:
-    repo_token: b310674f6c6c6e6b425087fd4bfd38b2f6def3afc8db24009ad23372140d0ef4
 script: "bundle exec rake test"
