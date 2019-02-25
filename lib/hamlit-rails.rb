@@ -43,7 +43,7 @@ module Haml
       # provided directly by railties 3.2..4.1 but was dropped in 4.2.
       if Gem::Requirement.new(">= 4.2").satisfied_by?(Gem::Version.new(::Rails.version))
         initializer 'hamlit_rails.configure_source_annotation' do
-          if ::Rails.version.to_s >= '6.0'
+          if Gem::Requirement.new(">= 6.0").satisfied_by?(Gem::Version.new(::Rails.version))
             annotation_class = ::Rails::SourceAnnotationExtractor::Annotation
           else
             annotation_class = SourceAnnotationExtractor::Annotation
