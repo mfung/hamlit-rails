@@ -3,7 +3,7 @@ Hamlit-rails
 
 [![Build Status](https://travis-ci.org/mfung/hamlit-rails.svg)](https://travis-ci.org/mfung/hamlit-rails) [![Gem Version](https://badge.fury.io/rb/hamlit-rails.svg)](http://badge.fury.io/rb/hamlit-rails)
 
-Provides hamlit generators for Rails 4. It also enables hamlit as the templating
+Provides hamlit generators for Rails. It also enables hamlit as the templating
 engine and "hamlit:html2haml" rake task that converts erb files to haml.
 
 ## Installation
