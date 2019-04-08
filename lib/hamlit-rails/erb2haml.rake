@@ -15,7 +15,7 @@ namespace :hamlit do
     erb_files = Dir.glob('app/views/**/*.erb').select(&File.method(:file?))
     if erb_files.empty?
       puts 'No .erb files found. Skipping.'
-      return
+      next
     end
 
     haml_files_in_erb = Dir.glob('app/views/**/*.haml').select(&File.method(:file?)).map do |name|
@@ -36,7 +36,7 @@ namespace :hamlit do
       if answer == 'n'
         if (erb_files - existing_files).empty?
           puts 'No .erb files to convert. Skipping.'
-          return
+          next
         end
       else
         existing_files.each { |file| File.delete(file.sub(/\.erb\z/, '.haml')) }
