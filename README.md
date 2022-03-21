@@ -8,15 +8,11 @@ engine and "hamlit:erb2haml" rake task that converts erb files to haml.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Run:
 
-```ruby
-gem 'hamlit-rails'
+```sh
+bundle add hamlit-rails
 ```
-
-And then execute:
-
-    $ bundle
 
 Or install it yourself as:
 
